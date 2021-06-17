@@ -11,8 +11,8 @@ class Edge:
     def __init__(self):
         self.count = 0
         self.file_path = os.getcwd()+"/dataset.csv"
-        self.topicurl = "http://localhost:3001/topic"
-        self.bufferurl = "http://localhost:3001/buffer"
+        self.topicurl = "https://iotenableapp.herokuapp.com/topic"
+        self.bufferurl = "https://iotenableapp.herokuapp.com/buffer"
         self.payload = {}
         self.header = {"Content-Type":"application/json"}
         self.buffer = []
