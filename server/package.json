@@ -1,0 +1,23 @@
+{
+  "name": "iot_app",
+  "version": "1.0.0",
+  "description": "iot enable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "keywords": [
+    "prabal"
+  ],
+  "author": "prabal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "csv-append": "^1.0.0",
+    "express": "^4.17.1",
+    "google-spreadsheet": "^3.1.15",
+    "heroku": "^7.54.1",
+    "objects-to-csv": "^1.3.6"
+  }
+}
